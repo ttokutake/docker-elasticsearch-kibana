@@ -28,4 +28,5 @@ $ curl -u elastic:changeme localhost:5601/
 
 ## Warning
 
-If some Elasticsearch containers do not work well, you should increase memory size which docker can use.
+- If some Elasticsearch containers do not work well, you should increase memory size which docker can use.
+- If you face "Failed to create node environment", you should run "sudo chmod 777 esdata*".
